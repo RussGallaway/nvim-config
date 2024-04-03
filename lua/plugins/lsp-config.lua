@@ -72,6 +72,10 @@ return {
 				},
 			})
 
+			lspconfig["marksman"].setup({
+				capabilities = capabilities,
+			})
+
 			-- configure python server
 			lspconfig["pyright"].setup({
 				capabilities = capabilities,
